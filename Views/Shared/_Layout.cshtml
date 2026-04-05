@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] – Connect With Me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="icon" type="image/png" href="~/images/logo.png">
+</head>
+<body>
+
+    <div class="bg-bubbles" aria-hidden="true">
+        <span class="bubble bubble-1"></span>
+        <span class="bubble bubble-2"></span>
+        <span class="bubble bubble-3"></span>
+        <span class="bubble bubble-4"></span>
+        <span class="bubble bubble-5"></span>
+        <span class="bubble bubble-6"></span>
+    </div>
+
+<nav class="navbar">
+        <div class="nav-inner">
+            <a asp-controller="Home" asp-action="Index" class="nav-logo">
+                <img src="~/images/logo.png" alt="Connect With Me Logo" />
+            </a>
+            <ul class="nav-links">
+                <li>
+                    <a asp-controller="Home" asp-action="Index"
+                       class="nav-link @(ViewData["ActivePage"]?.ToString() == "Home" ? "active" : "")">
+                        <i class="fa-solid fa-house"></i> Home
+                    </a>
+                </li>
+                <li>
+                    <a asp-controller="Home" asp-action="About"
+                       class="nav-link @(ViewData["ActivePage"]?.ToString() == "About" ? "active" : "")">
+                        <i class="fa-solid fa-circle-info"></i> About
+                    </a>
+                </li>
+                <li>
+                    <a asp-controller="Home" asp-action="Connect"
+                       class="nav-link @(ViewData["ActivePage"]?.ToString() == "Connect" ? "active" : "")">
+                        <i class="fa-solid fa-envelope"></i> Connect
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        @RenderBody()
+    </main>
+
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</body>
+</html>

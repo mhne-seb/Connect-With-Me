@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Home";
+    ViewData["ActivePage"] = "Home";
+}
+
+<section class="hero-section">
+    <div class="hero-content animate-up">
+        <img src="~/images/logo.png" alt="Connect With Me" class="hero-logo" />
+
+        <h1 class="welcome-label">Hello, Welcome!</h1>
+
+        <p class="hero-subtitle">
+            A centralized platform for all my social and professional links.
+        </p>
+
+        <a asp-controller="Home" asp-action="Connect" class="cta-button">
+            Connect Now <i class="fa-solid fa-arrow-right"></i>
+        </a>
+    </div>
+</section>
