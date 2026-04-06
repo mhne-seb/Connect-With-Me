@@ -91,7 +91,7 @@ C:\Users\DELL\ConnectWithMe\bin\Debug\net10.0\ConnectWithMe.runtimeconfig.json
 C:\Users\DELL\ConnectWithMe\bin\Debug\net10.0\ConnectWithMe.pdb
 C:\Users\DELL\ConnectWithMe\obj\Debug\net10.0\ConnectWithMe.genruntimeconfig.cache
 C:\Users\DELL\ConnectWithMe\obj\Debug\net10.0\ref\ConnectWithMe.dll
-C:\Users\DELL\ConnectWithMe\obj\Debug\net10.0\compressed\71yqzxfc1v-{0}-pyozg9jzvm-pyozg9jzvm.gz
 C:\Users\DELL\ConnectWithMe\obj\Debug\net10.0\compressed\r7rhxq9exw-{0}-k1w09vw7xu-k1w09vw7xu.gz
 C:\Users\DELL\ConnectWithMe\obj\Debug\net10.0\compressed\j6wxu8l85p-{0}-rb5dqfhmlu-rb5dqfhmlu.gz
 C:\Users\DELL\ConnectWithMe\obj\Debug\net10.0\compressed\kcao6ozotr-{0}-rb5dqfhmlu-rb5dqfhmlu.gz
+C:\Users\DELL\ConnectWithMe\obj\Debug\net10.0\compressed\71yqzxfc1v-{0}-rw16srdttk-rw16srdttk.gz
