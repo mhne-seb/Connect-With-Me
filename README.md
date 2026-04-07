@@ -8,8 +8,8 @@ Connect With Me is a website developed as part of an Application Development act
 ### Homepage
 ![Homepage](screenshot1.png)
 
-### About Page
+### Connect Page
 ![About Page](screenshot2.png)
 
-### Connect Page
+### About Page
 ![Connect Page](screenshot3.png)
